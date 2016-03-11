@@ -6,7 +6,8 @@
 	"manifest_version": 2,
 	"minimum_chrome_version": "48",
 	"permissions": [
-		"https://github.com/*"
+		"https://github.com/*",
+		"https://github.jci.com/*"
 	],
 	"icons": {
 		"128": "icon.png"
@@ -15,7 +16,8 @@
 		{
 			"run_at": "document_start",
 			"matches": [
-				"https://github.com/*"
+				"https://github.com/*",
+				"https://github.jci.com/*"
 			],
 			"css": [
 				"content.css",
